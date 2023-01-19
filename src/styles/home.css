@@ -1,0 +1,42 @@
+.hero-section {
+  background-image: url("../images/fundoHome.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  max-width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section h2 {
+  background-color: white;
+  font-family: "Libre Caslon Text", serif;
+  font-size: 1.7em;
+  width: 70vw;
+  font-weight: 700;
+  text-align: center;
+  color: #570416;
+}
+
+.hero-section img {
+  width: 30vw;
+  height: auto;
+}
+
+.btn-home-serv {
+  background-color: #570416;
+  border: none;
+  color: white;
+  padding: 0.938rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.15rem;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

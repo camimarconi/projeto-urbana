@@ -9,11 +9,13 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="*" element={<NotFound />} />
-        <Route path="/outra" element={<Outra />} />
-      </Routes>
+      <div className="cover-container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<NotFound />} />
+          <Route path="/outra" element={<Outra />} />
+        </Routes>
+      </div>
     </div>
   );
 }

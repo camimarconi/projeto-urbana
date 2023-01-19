@@ -1,19 +1,41 @@
+import "../styles/home.css";
+import logoHome from "../images/logoHome.png";
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
-    <div>
-      <h1>Você está na página Home</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-        pellentesque pellentesque commodo. Ut pretium lorem non nibh ornare
-        sagittis. Proin justo lacus, blandit eget gravida sit amet, sollicitudin
-        eget ipsum. Proin tellus lacus, fermentum ac sapien sit amet, vehicula
-        lobortis turpis. Nunc gravida volutpat sapien, quis laoreet nibh rutrum
-        nec. Pellentesque venenatis sollicitudin luctus. Ut maximus vitae nunc
-        id congue. Nunc ultricies, libero et lacinia sodales, massa massa semper
-        dui, feugiat dictum felis nisi ut felis. Integer id mi id augue
-        imperdiet dapibus eu quis metus.
-      </p>
-    </div>
+    <main>
+      <section className="hero-section" id="hero-section">
+        <img
+          src={logoHome}
+          alt="logo-urbana"
+          className="img-fluid float-md-start me-2"
+        />
+        <h2 className="mt-5">
+          Fortalecimento da auto representação feminina capacitada e ao
+          desenvolvimento de materiais voltados para a implementação de um
+          planejamento urbano participativo.
+        </h2>
+      </section>
+
+      {/* <section className="container">
+        <p className="mt-5">
+          Fortalecimento da auto representação feminina capacitada e ao
+          desenvolvimento de materiais voltados para a implementação de um
+          planejamento urbano participativo.
+        </p>
+      </section> */}
+
+      <div className="container mt-5">
+        <Link className="btn-home-serv" to="/outra">
+          Serviços
+        </Link>
+
+        <footer>
+          <p>teste</p>
+        </footer>
+      </div>
+    </main>
   );
 }
 
