@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import NotFound from "../pages/NotFound";
 import Navbar from "./Navbar";
 import Outra from "../pages/Outra";
+import Serviços from "../pages/Serviços";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/outra" element={<Outra />} />
+          <Route path="/serviços" element={<Serviços />} />
         </Routes>
       </div>
     </div>
