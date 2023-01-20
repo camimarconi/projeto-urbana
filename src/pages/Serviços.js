@@ -1,5 +1,4 @@
-{
-  /* <div className="container">
+/* <div className="container">
         <section className="whats-on-spotify" id="whats-on-spotify">
           <h2 className="section-title">Serviços</h2>
 
@@ -26,4 +25,3 @@
             </div>
           </div>
         </section> */
-}

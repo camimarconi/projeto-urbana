@@ -1,5 +1,5 @@
 .hero-section {
-  background-image: url("../images/fundoHome.jpg");
+  background-image: url("../images/fundoHome.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -12,19 +12,18 @@
   align-items: center;
 }
 
-.hero-section h2 {
-  background-color: white;
-  font-family: "Libre Caslon Text", serif;
-  font-size: 1.7em;
-  width: 70vw;
-  font-weight: 700;
-  text-align: center;
-  color: #570416;
-}
-
 .hero-section img {
   width: 30vw;
   height: auto;
+}
+
+.info-box {
+  font-family: "Libre Caslon Text", serif;
+  font-size: 1.5em;
+  width: 60vw;
+  font-weight: 700;
+  text-align: center;
+  color: #570416;
 }
 
 .btn-home-serv {
@@ -34,9 +33,24 @@
   padding: 0.938rem 2rem;
   text-align: center;
   text-decoration: none;
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.footer-css {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Libre Caslon Text", serif;
+  font-size: 0.57em;
+  color: #570416;
+  font-weight: 400;
+}
+.footer-css img {
+  width: 2vw;
+  height: auto;
 }
