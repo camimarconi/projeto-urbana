@@ -8,7 +8,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-md me-1">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          <img src={logoHome} alt="logo-urbana" width="40%" height="20%" />
+          <img src={logoHome} alt="logo-urbana" width="14%" height="7%" />
         </Link>
         <div className="mediaNavbar">
           <ul className="navbar-nav">
