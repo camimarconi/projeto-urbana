@@ -2,11 +2,11 @@ import "../styles/serviços.css";
 import React from "react";
 import { Link } from "react-router-dom";
 // import Accordion from "../components/Accordion";
-import logoInstagram from "../images/logoInstagram.png";
-import consultoriaLogo from "../images/consultoriaLogo.png";
-import pesquisaLogo from "../images/pesquisaLogo.png";
-import treinamentoLogo from "../images/treinamentoLogo.png";
-import colaboraçãoLogo from "../images/colaboraçãoLogo.png";
+import logoInstagram from "../assets/images/logoInstagram.png";
+import consultoriaLogo from "../assets/images/consultoriaLogo.png";
+import pesquisaLogo from "../assets/images/pesquisaLogo.png";
+import treinamentoLogo from "../assets/images/treinamentoLogo.png";
+import colaboraçãoLogo from "../assets/images/colaboraçãoLogo.png";
 
 function Serviços() {
   // const accordionData = [

@@ -1,7 +1,7 @@
 import "../styles/home.css";
-import logoHome from "../images/logoHome.png";
+import logoHome from "../assets/images/logoHome.png";
 import { Link } from "react-router-dom";
-import logoInstagram from "../images/logoInstagram.png";
+import logoInstagram from "../assets/images/logoInstagram.png";
 function Home() {
   return (
     <main>

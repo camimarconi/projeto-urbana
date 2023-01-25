@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../styles/navbar-style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logoHome from "../images/logoHome.png";
+import logoHome from "../assets/images/logoHome.png";
 
 function Navbar() {
   return (
