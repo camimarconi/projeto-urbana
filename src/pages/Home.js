@@ -12,16 +12,14 @@ function Home() {
         <img src={logoHome} alt="logo-urbana" className="img-fluid" />
       </section>
       <section className="hero-section" id="hero-section">
-        <ul className="info-box mt5">
-          <li>1. é aquela [mulher] que pertence à cidade</li>
-          <li>2. própria da cidade</li>
-          <li>3. que tem características de cidade</li>
-          <li>4. dotada de urbanidade</li>
-        </ul>
+        <p className="container info-box mt5">
+          Serviço de consultoria e apoio técnico em metodologias de planejamento
+          urbano a partir da perspectiva de gênero
+        </p>
       </section>
       <section className="container mt-5 section-infos">
         <p className="info-below">
-          A <strong>urbana</strong> é uma consultoria que busca juntar esforços
+          {/* A <strong>urbana</strong> é uma consultoria que busca juntar esforços
           com outros movimentos e organizações, colidindo e construindo agendas
           de compromissos às políticas de igualdade de gênero. Visa a
           articulação com o setor público e privado, na premissa da construção
@@ -29,7 +27,7 @@ function Home() {
           interrelacionam e se fortalecem entre si, por meio da adoção de
           metodologias fundamentais para a aplicação e compreensão da
           perspectiva de gênero no planejamento urbano e no urbanismo, embasadas
-          em referências nacionais e internacionais.
+          em referências nacionais e internacionais. */}
         </p>
         <Link className="btn-home-serv mt-5" to="/outra">
           Serviços

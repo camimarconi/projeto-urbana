@@ -36,7 +36,8 @@ function Serviços() {
 
   return (
     <main>
-      <section className="serviços-section" id="serviços-section">
+      <section className="serviços-section"></section>
+      <section className="container mt-5 h1-serv">
         <h1>Serviços</h1>
       </section>
 
