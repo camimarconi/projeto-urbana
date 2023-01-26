@@ -1,3 +1,9 @@
+/* * {
+  border: 1px;
+  border-color: red;
+  border-style: dashed;
+} */
+
 .hero-section-top {
   background-image: url("../assets/images/fundoHome.png");
   background-repeat: no-repeat;
@@ -27,59 +33,47 @@
   margin-top: 5em;
 }
 
-/* .hero-section img {
-  width: 40vw;
+.custom-container {
+  width: 50vw;
   height: auto;
-} */
-
-.section-infos {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.info-box {
-  font-family: "Libre Caslon Text", serif;
-  font-size: 1.7em;
+  font-family: "Bitter", serif;
+  font-size: 2rem;
   font-weight: 700;
   text-align: center;
-  list-style: none;
-}
-
-.info-below {
-  font-family: "Libre Caslon Text", serif;
-  font-size: 1.5em;
-  width: 60vw;
-  font-weight: 400;
-  text-align: justify;
   color: #570416;
 }
 
-.btn-home-serv,
-.btn-home-serv:hover,
-.btn-home-serv:focus {
-  background-color: #cdbe9b;
-  border: none;
-  color: white;
-  padding: 0.938rem 2rem;
-  text-align: center;
-  font-size: 1.2rem;
-  text-decoration: none;
-  text-shadow: none;
-}
-
-.btn-home-serv .footer-css {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: "Libre Caslon Text", serif;
-  font-size: 0.57em;
-  color: #570416;
-  font-weight: 400;
-}
-.footer-css img {
-  width: 2vw;
+.img-card {
+  width: 15vw;
   height: auto;
 }
+
+.h2-serv {
+  font-family: "Bitter", serif;
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  color: #570416;
+}
+
+.link-text-serv {
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  color: #570416;
+}
+
+.link-text-serv:hover,
+.link-text-serv:focus {
+  color: #cdbe9b;
+}
+
+.end-style {
+  font-family: "Bitter", serif;
+  font-weight: 700;
+  font-size: 0.7em;
+}
+/* .footer-css img {
+  width: 2vw;
+  height: auto;
+} */

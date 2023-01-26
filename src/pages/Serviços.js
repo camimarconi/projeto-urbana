@@ -51,7 +51,7 @@ function Serviços() {
                 alt="consultoria-logo"
               />
               <div className="card-body">
-                <h5 className="card-title">Consultoria em urbanismo</h5>
+                <h5 className="card-title">Consultoria</h5>
                 {/* <p className="card-text">
                   
                 </p> */}

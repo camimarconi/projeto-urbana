@@ -2,6 +2,11 @@ import "../styles/home.css";
 import logoHome from "../assets/images/logoHome.png";
 import { Link } from "react-router-dom";
 import logoInstagram from "../assets/images/logoInstagram.png";
+import iconConsultB from "../assets/images/icon-consult-b.png";
+import iconpesqB from "../assets/images/icon-pesq-b.png";
+import icontreinamtB from "../assets/images/icon-treinam-b.png";
+import iconcolabtB from "../assets/images/icon-colab-b.png";
+
 function Home() {
   return (
     <main>
@@ -11,42 +16,121 @@ function Home() {
       <section className="container hero-section-img">
         <img src={logoHome} alt="logo-urbana" className="img-fluid" />
       </section>
-      <section className="hero-section" id="hero-section">
-        <p className="container info-box mt5">
+      <section className="hero-section">
+        <p className="custom-container mt5">
           Serviço de consultoria e apoio técnico em metodologias de planejamento
           urbano a partir da perspectiva de gênero
         </p>
       </section>
-      <section className="container mt-5 section-infos">
-        <p className="info-below">
-          {/* A <strong>urbana</strong> é uma consultoria que busca juntar esforços
-          com outros movimentos e organizações, colidindo e construindo agendas
-          de compromissos às políticas de igualdade de gênero. Visa a
-          articulação com o setor público e privado, na premissa da construção
-          de um objetivo social comum. Atua em quatro eixos que se
-          interrelacionam e se fortalecem entre si, por meio da adoção de
-          metodologias fundamentais para a aplicação e compreensão da
-          perspectiva de gênero no planejamento urbano e no urbanismo, embasadas
-          em referências nacionais e internacionais. */}
-        </p>
-        <Link className="btn-home-serv mt-5" to="/outra">
-          Serviços
-        </Link>
-        <div className="container mt-5">
-          <footer className="footer-css mb-3">
-            <p className="m-0 p-0">julislr</p>
-            <Link
-              onClick={() => {
-                window.open(`https://www.instagram.com/julislr.m/`);
-              }}
-              to="#"
-            >
+
+      <section className="container mt-5 mb-5">
+        <h2 className="text-center h2-serv">Serviços</h2>
+      </section>
+
+      <section className="d-flex flex-wrap justify-content-evenly align-items-center">
+        <div className="mt-5 d-flex flex-colmb-4" style={{ width: "11rem" }}>
+          <div className="col text-center">
+            <Link className="link-text-serv" to="/outra">
               <img
-                src={logoInstagram}
-                alt="logo-instagram"
-                className="img-fluid"
+                src={iconConsultB}
+                className="card-img-top"
+                alt="icon-consultoria"
               />
+              <h5 className="mt-4 fs-4 col">Consultoria e gestão</h5>
             </Link>
+          </div>
+        </div>
+        <div
+          className="mt-5 d-flex flex-colmb-4 text-center"
+          style={{ width: "11rem" }}
+        >
+          <div className="col align-self-center">
+            <Link className="link-text-serv" to="/outra">
+              <img
+                src={iconpesqB}
+                className="card-img-top"
+                alt="icon-pesquisa"
+              />
+              <h5 className="mt-4 fs-4 col">Pesquisa e produção</h5>
+            </Link>
+          </div>
+        </div>
+        <div
+          className="mt-5 d-flex flex-colmb-4 text-center"
+          style={{ width: "11rem" }}
+        >
+          <div className="col align-self-center">
+            <Link className="link-text-serv" to="/outra">
+              <img
+                src={icontreinamtB}
+                className="card-img-top"
+                alt="icon-treinamento"
+              />
+              <h5 className="mt-4 fs-4 col">Treinamentos e articulação</h5>
+            </Link>
+          </div>
+        </div>
+        <div
+          className="mt-5 d-flex flex-colmb-4 text-center"
+          style={{ width: "11rem" }}
+        >
+          <div className="col align-self-center">
+            <Link className="link-text-serv" to="/outra">
+              <img
+                src={iconcolabtB}
+                className="card-img-top"
+                alt="icon-colaboração"
+              />
+              <h5 className="mt-4 fs-4 col">Colaboração e conscientização</h5>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <footer className="container end-style">
+        <div>
+          <p className="">julislr</p>
+          <Link
+            onClick={() => {
+              window.open(`https://www.instagram.com/julislr.m/`);
+            }}
+            to="#"
+          >
+            <img
+              src={logoInstagram}
+              alt="logo-instagram"
+              className="img-fluid"
+            />
+          </Link>
+        </div>
+
+        <div className="float-end m-0 p-0">
+          <p className="m-0 p-0">cel.: +55 11 97421-3809</p>
+          <p className="m-0 p-0">email: urbana.perspectiva@gmail.com</p>
+        </div>
+      </footer>
+
+      <section className="container mt-5">
+        <div className="container mt-5">
+          <footer className="footer-css mb-3 ">
+            <section className="float-start">
+              <p className="m-0 p-0">julislr</p>
+              <Link
+                onClick={() => {
+                  window.open(`https://www.instagram.com/julislr.m/`);
+                }}
+                to="#"
+              >
+                <img
+                  src={logoInstagram}
+                  alt="logo-instagram"
+                  className="img-fluid"
+                />
+              </Link>
+            </section>
+            <section className="float-end">
+              <p>telefone e email</p>
+            </section>
           </footer>
         </div>
       </section>
