@@ -1,6 +1,6 @@
 import "../styles/serviços.css";
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 // import Accordion from "../components/Accordion";
 import consultoriaLogo from "../assets/images/consultoriaLogo.png";
 import pesquisaLogo from "../assets/images/pesquisaLogo.png";

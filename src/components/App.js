@@ -2,14 +2,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import NotFound from "../pages/NotFound";
-import Navbar from "./Navbar";
+import NavbarModel from "./NavbarModel";
 import Outra from "../pages/Outra";
 import Serviços from "../pages/Serviços";
 
 function App() {
   return (
     <div>
-      <Navbar />
+      <NavbarModel />
       <div className="cover-container">
         <Routes>
           <Route path="/" element={<Home />} />

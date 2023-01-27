@@ -1,25 +1,32 @@
+/* * {
+  border: 1px;
+  border-color: red;
+  border-style: dashed;
+} */
+
 .nav-item .nav-link {
-  padding: 0.25rem 0;
   font-family: "Bitter", serif;
   font-weight: 700;
   color: #570416;
   background-color: transparent;
-  border-bottom: 0.25rem solid transparent;
+  border-bottom: 0.2rem solid transparent;
 }
 
 .nav-item .nav-link:hover,
-.nav-item .nav-link:focus {
+.nav-item .nav-link:focus,
+.nav-item .nav-link:active {
   color: #cdbe9b;
   border-bottom-color: #cdbe9b;
 }
 
-.nav-item .nav-link + .nav-link {
-  margin-left: 1rem;
-}
-/* 
-@media (min-width: 350px) and (max-width: 768px) {
-  .mediaNavbar {
-    font-size: 1rem;
-    display: inline;
+@media only screen and (max-width: 768px) {
+  .logoMediaQ {
+    width: 25vw;
+    height: auto;
   }
-} */
+  .nav-item .nav-link:hover,
+  .nav-item .nav-link:focus,
+  .nav-item .nav-link:active {
+    border-bottom-color: transparent;
+  }
+}

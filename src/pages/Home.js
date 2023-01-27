@@ -97,7 +97,7 @@ function Home() {
         </div>
       </section>
 
-      <footer className="container mt-5 mb-5">
+      <footer className="mDetail mb-3">
         <Link
           onClick={() => {
             window.open(`https://www.linkedin.com/in/msolerjulia/`);
