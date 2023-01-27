@@ -2,7 +2,6 @@ import "../styles/serviços.css";
 import React from "react";
 import { Link } from "react-router-dom";
 // import Accordion from "../components/Accordion";
-import logoInstagram from "../assets/images/logoInstagram.png";
 import consultoriaLogo from "../assets/images/consultoriaLogo.png";
 import pesquisaLogo from "../assets/images/pesquisaLogo.png";
 import treinamentoLogo from "../assets/images/treinamentoLogo.png";
@@ -122,18 +121,6 @@ function Serviços() {
         <div className="container mt-5">
           <footer className="footer-css mb-3">
             <p className="m-0 p-0">julislr</p>
-            <Link
-              onClick={() => {
-                window.open(`https://www.instagram.com/julislr.m/`);
-              }}
-              to="#"
-            >
-              <img
-                src={logoInstagram}
-                alt="logo-instagram"
-                className="img-fluid"
-              />
-            </Link>
           </footer>
         </div>
       </section>

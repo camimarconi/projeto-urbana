@@ -1,8 +1,8 @@
-/* * {
+* {
   border: 1px;
   border-color: red;
   border-style: dashed;
-} */
+}
 
 .hero-section-top {
   background-image: url("../assets/images/fundoHome.png");
@@ -26,8 +26,13 @@
   align-items: center;
 }
 
+.hero-section-logo {
+  display: flex;
+  justify-content: center;
+}
+
 .hero-section-img {
-  width: 41vw;
+  width: 45vw;
   height: auto;
   margin-bottom: 5em;
   margin-top: 5em;
@@ -43,8 +48,12 @@
   color: #570416;
 }
 
-.img-card {
-  width: 15vw;
+.card {
+  border-color: white;
+}
+
+.card-img-top {
+  width: 10vw;
   height: auto;
 }
 
@@ -69,11 +78,58 @@
 }
 
 .end-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-family: "Bitter", serif;
   font-weight: 700;
-  font-size: 0.7em;
+  font-size: 0.8em;
+  color: black;
+  text-decoration: none;
 }
-/* .footer-css img {
+
+.end-style-email:hover,
+.end-style-email:focus {
+  color: #cdbe9b;
+}
+
+.footer-logos {
   width: 2vw;
   height: auto;
-} */
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-section-img {
+    width: 80vw;
+    height: auto;
+  }
+
+  .custom-container {
+    width: 90vw;
+    height: auto;
+    padding: 2%;
+    font-size: 1.5em;
+  }
+
+  .h2-serv {
+    font-size: 2.5em;
+  }
+
+  .card-img-top {
+    width: 22vw;
+    height: auto;
+  }
+
+  .titleBelow {
+    font-size: 1.2em;
+  }
+
+  .end-style {
+    font-size: 0.8em;
+  }
+
+  .footer-logos {
+    width: 5vw;
+    height: auto;
+  }
+}
