@@ -4,6 +4,10 @@
   border-style: dashed;
 } */
 
+.bg-nav-css {
+  background-color: white;
+}
+
 .nav-item .nav-link {
   font-family: "Bitter", serif;
   font-weight: 700;

@@ -3,8 +3,10 @@ import { Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import NotFound from "../pages/NotFound";
 import NavbarModel from "./NavbarModel";
+import Footer from "./Footer";
 import Outra from "../pages/Outra";
 import Serviços from "../pages/Serviços";
+import Consultoria from "../pages/Consultoria";
 
 function App() {
   return (
@@ -16,8 +18,10 @@ function App() {
           <Route path="*" element={<NotFound />} />
           <Route path="/outra" element={<Outra />} />
           <Route path="/serviços" element={<Serviços />} />
+          <Route path="/consultoria" element={<Consultoria />} />
         </Routes>
       </div>
+      <Footer />
     </div>
   );
 }

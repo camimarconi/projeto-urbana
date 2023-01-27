@@ -1,0 +1,85 @@
+/* * {
+  border: 1px;
+  border-color: red;
+  border-style: solid;
+} */
+
+.serviços-section {
+  background-image: url("../assets/images/fundoServiços.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  max-width: 100%;
+  height: 20vh;
+}
+
+.h2-serv-each {
+  font-family: "Bitter", serif;
+  font-size: 2.7em;
+  font-weight: 700;
+  color: #570416;
+  padding: 0.3em 0.2em 0.2em 1.5em;
+  background-color: #e5ddcb;
+  margin-bottom: 0;
+}
+
+.h3-serv-each {
+  font-family: "Bitter", serif;
+  font-size: 2.1em;
+  font-weight: 700;
+  color: #570416;
+  padding-left: 2.5em;
+  background-color: #f5f2eb;
+}
+
+.img-icon-each {
+  margin: 0.3em;
+  width: 3vw;
+  height: auto;
+}
+
+.sizeCardServ {
+  width: 30rem;
+}
+
+.sizeCardServ img {
+  width: 13vw;
+}
+
+.card-body p {
+  font-family: "Questrial", sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.card-img-top-each {
+  width: 15vw;
+  height: auto;
+  align-items: center;
+  align-self: center;
+}
+
+.titleBelowEach {
+  font-family: "Questrial", sans-serif;
+  text-align: justify;
+  font-size: large;
+}
+
+@media only screen and (max-width: 768px) {
+  .h2-serv-each {
+    font-size: 2em;
+    padding-left: 1em;
+  }
+
+  .h3-serv-each {
+    font-size: 1.8em;
+    padding-left: 1.7em;
+  }
+
+  .img-icon-each {
+    margin: 0.3em;
+    width: 9vw;
+    height: auto;
+  }
+}

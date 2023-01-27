@@ -8,7 +8,7 @@ import logoHome from "../assets/images/logoHome.png";
 
 function NavbarModel() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar className="bg-nav-css" expand="lg">
       <Container>
         <Navbar.Brand href="/">
           <img
