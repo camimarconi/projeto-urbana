@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import Outra from "../pages/Outra";
 import Serviços from "../pages/Serviços";
 import Consultoria from "../pages/Consultoria";
+import Pesquisa from "../pages/Pesquisa";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/outra" element={<Outra />} />
           <Route path="/serviços" element={<Serviços />} />
           <Route path="/consultoria" element={<Consultoria />} />
+          <Route path="/pesquisa" element={<Pesquisa />} />
         </Routes>
       </div>
       <Footer />

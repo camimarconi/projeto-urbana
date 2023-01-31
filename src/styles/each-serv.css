@@ -57,6 +57,23 @@
   text-align: justify;
 }
 
+.btn-serv {
+  font-family: "Bitter", serif;
+  font-size: 1.3em;
+  font-weight: 700;
+  background-color: #570416;
+  color: white;
+}
+
+.btn-serv:hover {
+  background-color: #e5ddcb;
+  color: #570416;
+}
+
+.btn-section {
+  margin-top: 2em;
+}
+
 @media only screen and (max-width: 768px) {
   .h2-serv-each {
     font-size: 1.6em;
@@ -89,7 +106,11 @@
     font-size: 1rem;
   }
 
-  .projcss {
-    margin-bottom: 5em;
+  .btn-serv {
+    font-size: 1em;
+  }
+
+  .btn-section {
+    margin-top: 3em;
   }
 }

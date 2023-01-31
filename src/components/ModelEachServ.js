@@ -1,8 +1,6 @@
+import { Link } from "react-router-dom";
 import "../styles/each-serv.css";
-// import iconConsultVinho from "../assets/images/1-icon-consult-vinho.png";
-// import iconApoioTec from "../assets/images/icon-apoio-tec.png";
-// import iconProjetos from "../assets/images/icon-projetos.png";
-// import iconAplicação from "../assets/images/icon-aplicacao.png";
+import Button from "react-bootstrap/Button";
 
 function Consultoria(props) {
   return (
@@ -26,7 +24,7 @@ function Consultoria(props) {
           </div>
         </div>
 
-        <div className="sizeCardServ projcss">
+        <div className="sizeCardServ">
           <div className="card align-items-center">
             <img src={props.imgServ2} alt={props.imgServ2Alt} />
             <p className="card-text">{props.p2}</p>
@@ -39,6 +37,17 @@ function Consultoria(props) {
             <p className="card-text">{props.p3}</p>
           </div>
         </div>
+      </section>
+
+      <section className="d-flex justify-content-center btn-section">
+        <Link
+          role="button"
+          className="btn btn-outline btn-lg btn-serv"
+          aria-pressed="true"
+          to={props.href}
+        >
+          {props.btnTittle}
+        </Link>
       </section>
     </main>
   );
