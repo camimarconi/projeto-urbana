@@ -12,7 +12,7 @@ function Footer() {
           window.open(`https://www.linkedin.com/in/msolerjulia/`);
         }}
         to="#"
-        className="float-start"
+        className="float-start backcolor"
       >
         <img
           src={linkedinLogo}
@@ -42,7 +42,7 @@ function Footer() {
       >
         <img src={issuLogo} alt="logo-issuu" className="footer-logos" />
       </Link>
-      <div className="float-end end-style">
+      <div className="float-end end-style divStyleEnd">
         <p className="float-end m-0 p-0 end-style">cel.: +55 11 97421-3809</p>
         <Link
           onClick={() =>

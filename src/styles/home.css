@@ -1,3 +1,9 @@
+/* * {
+  border: 1px;
+  border-color: red;
+  border-style: dashed;
+} */
+
 .hero-section-top {
   background-image: url("../assets/images/fundoHome.png");
   background-repeat: no-repeat;
@@ -58,13 +64,29 @@
   color: #cdbe9b;
 }
 
+.divStyleEnd {
+  padding-top: 0.5em;
+}
+
 .footer-logos {
   width: 2vw;
   height: auto;
+  padding-top: 0.5em;
+}
+
+.mDetail .footer-logos {
+  background-color: transparent;
+  border-top: 0.2rem solid transparent;
+}
+
+.mDetail .footer-logos:hover,
+.mDetail .footer-logos:focus {
+  color: #cdbe9b;
+  border-top-color: #cdbe9b;
 }
 
 .mDetail {
-  margin: 7em 3em 0em 3em;
+  margin: 7em 3em 1em 3em;
 }
 
 @media only screen and (max-width: 768px) {
