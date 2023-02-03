@@ -1,5 +1,5 @@
 import "../styles/contato.css";
-import imgContato from "../assets/images/contato_img.jpeg";
+import imgContato from "../assets/images/fundoHome.png";
 import { Link } from "react-router-dom";
 
 function Contato() {

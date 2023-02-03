@@ -30,7 +30,7 @@
   font-family: "Questrial", serif;
   font-size: 1.5em;
   font-weight: 700;
-  color: #c6bfb0cb;
+  color: #cdbe9b;
 }
 
 .imagem-cidade {
@@ -57,8 +57,8 @@
   }
 
   .imagem-cidade {
-    width: 50vw;
+    width: 70vw;
     height: auto;
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 }
