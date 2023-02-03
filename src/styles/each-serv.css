@@ -5,7 +5,7 @@
 } */
 
 .serviços-section {
-  background-image: url("../assets/images/fundoServiços.png");
+  background-image: url("../assets/images/fundoServiços_emily_garfield.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -14,9 +14,17 @@
   height: 20vh;
 }
 
+.src-name-each {
+  font-family: "Questrial", sans-serif;
+  font-size: 0.7em;
+  color: #570416;
+  font-style: italic;
+  margin-right: 1em;
+}
+
 .h2-serv-each {
   font-family: "Bitter", serif;
-  font-size: 2.7em;
+  font-size: 2.5em;
   font-weight: 700;
   color: #570416;
   padding: 0.3em 0.2em 0.2em 1.5em;
@@ -26,7 +34,7 @@
 
 .h3-serv-each {
   font-family: "Bitter", serif;
-  font-size: 2.1em;
+  font-size: 2em;
   font-weight: 700;
   color: #570416;
   padding-left: 2.5em;
@@ -75,6 +83,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .src-name-each {
+    font-size: 0.55em;
+  }
+
   .h2-serv-each {
     font-size: 1.6em;
     padding-left: 1em;

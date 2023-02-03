@@ -25,7 +25,7 @@ function NavbarModel() {
             <Nav.Link className="nav-link" href="/">
               Home
             </Nav.Link>
-            <Nav.Link className="nav-link" href="/">
+            <Nav.Link className="nav-link" href="/sobre">
               Sobre
             </Nav.Link>
             <NavDropdown title="Serviços" id="basic-nav-dropdown">
@@ -33,23 +33,23 @@ function NavbarModel() {
                 Serviços
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item className="nav-link" href="/">
+              <NavDropdown.Item className="nav-link" href="/consultoria">
                 Consultoria e gestão
               </NavDropdown.Item>
-              <NavDropdown.Item className="nav-link" href="/outra">
+              <NavDropdown.Item className="nav-link" href="/pesquisa">
                 Pesquisa e produção
               </NavDropdown.Item>
-              <NavDropdown.Item className="nav-link" href="/">
+              <NavDropdown.Item className="nav-link" href="/treinamento">
                 Treinamentos e articulação
               </NavDropdown.Item>
-              <NavDropdown.Item className="nav-link" href="/">
+              <NavDropdown.Item className="nav-link" href="/colaboração">
                 Colaboração e conscientização
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className="nav-link" href="/">
+            <Nav.Link className="nav-link" href="/produções">
               Produções
             </Nav.Link>
-            <Nav.Link className="nav-link" href="/outra">
+            <Nav.Link className="nav-link" href="/contato">
               Contato
             </Nav.Link>
           </Nav>

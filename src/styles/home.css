@@ -89,6 +89,21 @@
   margin: 8em 3em 1em 3em;
 }
 
+.notFoundCss {
+  font-family: "Bitter", serif;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  color: #570416;
+  margin-bottom: 1rem;
+}
+
+.img-down {
+  width: 45%;
+  height: auto;
+  margin-top: 2rem;
+}
+
 @media only screen and (max-width: 768px) {
   .hero-section-img {
     width: 80vw;
@@ -113,5 +128,10 @@
 
   .mDetail {
     margin: 5.5em 1em 0em 1em;
+  }
+
+  .img-down {
+    width: 75%;
+    height: auto;
   }
 }

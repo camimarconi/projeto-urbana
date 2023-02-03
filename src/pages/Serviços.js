@@ -6,7 +6,10 @@ function Serviços() {
   return (
     <main>
       <section className="serviços-section"></section>
-      <section className="container mt-5 mb-5">
+      <section className="float-end">
+        <p className="src-name">img src: Emily Garfield</p>
+      </section>
+      <section className="container mt-3 mb-5">
         <ServiçosModel />
       </section>
     </main>

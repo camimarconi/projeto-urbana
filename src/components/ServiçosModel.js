@@ -9,17 +9,16 @@ import iconcolabtB from "../assets/images/icon-colab-b.png";
 function ServiçosModel() {
   return (
     <main>
-      <section className="container mt-5 mb-5">
+      <section className="container mt-3 mb-5">
         <h2 className="text-center h2-serv">Serviços</h2>
       </section>
-
       <section className="d-flex flex-wrap justify-content-evenly align-items-center">
         <div
           className="card mt-5 d-flex flex-colmb-4"
           style={{ width: "11rem" }}
         >
           <div className="card-body col text-center">
-            <Link className="link-text-serv" to="/outra">
+            <Link className="link-text-serv" to="/consultoria">
               <img
                 src={iconConsultB}
                 className="card-img-top"
@@ -34,7 +33,7 @@ function ServiçosModel() {
           style={{ width: "11rem" }}
         >
           <div className="card-body col align-self-center">
-            <Link className="link-text-serv" to="/outra">
+            <Link className="link-text-serv" to="/pesquisa">
               <img
                 src={iconpesqB}
                 className="card-img-top"
@@ -49,7 +48,7 @@ function ServiçosModel() {
           style={{ width: "11rem" }}
         >
           <div className="card-body col align-self-center">
-            <Link className="link-text-serv" to="/outra">
+            <Link className="link-text-serv" to="/treinamento">
               <img
                 src={icontreinamtB}
                 className="card-img-top"
@@ -66,7 +65,7 @@ function ServiçosModel() {
           style={{ width: "11rem" }}
         >
           <div className="card-body col align-self-center">
-            <Link className="link-text-serv" to="/outra">
+            <Link className="link-text-serv" to="/colaboração">
               <img
                 src={iconcolabtB}
                 className="card-img-top"

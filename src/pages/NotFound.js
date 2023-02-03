@@ -1,9 +1,18 @@
+import "../styles/home.css";
+import down from "../assets/images/down.jpg";
+
 function NotFound() {
   return (
-    <div>
-      <h1>404 - Não encontrado</h1>
-      <p>A página que você acessou não existe.</p>
-    </div>
+    <main>
+      <section className="hero-section-top"></section>
+      <section className="container align-items-center mt-5 mb-5">
+        <section className="notFoundCss">
+          <h2>404 error</h2>
+          <h3>Esta página não existe</h3>
+          <img src={down} alt="ilustração cidade" className="img-down" />
+        </section>
+      </section>
+    </main>
   );
 }
 

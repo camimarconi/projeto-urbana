@@ -20,6 +20,8 @@ function Consultoria() {
       imgServ3={iconAplicação}
       imgServ3Alt="icon aplicação"
       p3="Aplicação da metodologia de integração, de modo a agregar valor à produtos e processos, possibilitando uma resposta efetiva na transformação de territórios e eficácia no alcance dos objetivos propostos."
+      href="/outra"
+      btnTittle="Entre em contato!"
     />
   );
 }

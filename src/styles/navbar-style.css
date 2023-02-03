@@ -28,6 +28,10 @@
     width: 25vw;
     height: auto;
   }
+  .nav-item .nav-link {
+    font-size: 0.9em;
+  }
+
   .nav-item .nav-link:hover,
   .nav-item .nav-link:focus,
   .nav-item .nav-link:active {

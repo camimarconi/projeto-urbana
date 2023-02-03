@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import "../styles/each-serv.css";
-import Button from "react-bootstrap/Button";
 
-function Consultoria(props) {
+function ModelEachServ(props) {
   return (
     <main>
       <section className="serviços-section"></section>
+      <p className="float-end src-name-each">img src: Emily Garfield</p>
       <section>
         <h2 className="h2-serv-each">{props.h2}</h2>
       </section>
@@ -53,4 +53,4 @@ function Consultoria(props) {
   );
 }
 
-export default Consultoria;
+export default ModelEachServ;

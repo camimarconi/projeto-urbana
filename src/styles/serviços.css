@@ -1,11 +1,19 @@
 .serviços-section {
-  background-image: url("../assets/images/fundoServiços.png");
+  background-image: url("../assets/images/fundoServiços_emily_garfield.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 100vw;
   max-width: 100%;
   height: 20vh;
+}
+
+.src-name {
+  font-family: "Questrial", sans-serif;
+  font-size: 0.7em;
+  color: #570416;
+  font-style: italic;
+  margin-right: 1em;
 }
 
 .card {
@@ -19,7 +27,7 @@
 
 .h2-serv {
   font-family: "Bitter", serif;
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: 700;
   text-align: center;
   color: #570416;
@@ -38,6 +46,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .src-name {
+    font-size: 0.55em;
+  }
+
   .h2-serv {
     font-size: 2.5em;
   }

@@ -1,0 +1,125 @@
+.sobre-section {
+  background-image: url("../assets/images/fundoSobre_emily_garfield.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  max-width: 100%;
+  height: 20vh;
+}
+
+.sobreH1 {
+  font-family: "Bitter", serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #570416;
+}
+
+.sobreH2Urb {
+  font-family: "Bitter", serif;
+  font-size: 2.1em;
+  font-weight: 700;
+  color: #570416;
+  text-decoration-line: underline;
+  margin-bottom: 1rem;
+}
+
+.ol-css {
+  font-family: "Questrial", sans-serif;
+  font-size: 1.55em;
+  font-weight: bold;
+}
+
+.ol-css li {
+  padding-bottom: 1.1rem;
+}
+
+.img-sobre-1 {
+  width: 25rem;
+  height: auto;
+}
+
+.infoSobre {
+  font-family: "Questrial", sans-serif;
+  font-size: 1.3em;
+  text-align: justify;
+}
+
+.msSpec {
+  margin-left: 5rem;
+}
+
+.marginSpec {
+  margin-bottom: 7rem;
+  margin-top: 2.5rem;
+}
+
+.sobreH2 {
+  font-family: "Bitter", serif;
+  font-size: 2.1em;
+  font-weight: 700;
+  color: #570416;
+  margin-top: 5em;
+}
+
+.img-sobre-2 {
+  width: auto;
+  height: 11rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .sobreH1 {
+    font-size: 1.8em;
+  }
+
+  .sobreH2Urb {
+    font-size: 1.5em;
+  }
+
+  .ol-css {
+    font-size: 1.1em;
+    text-align: justify;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .mediaQSobre {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-sobre-1 {
+    width: 18rem;
+    height: auto;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+  }
+
+  .msSpec {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .marginSpec {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .infoSobre {
+    font-size: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  .sobreH2 {
+    font-size: 1.5em;
+    margin-left: 0.5em;
+    margin-top: 0;
+  }
+
+  .img-sobre-2 {
+    width: auto;
+    height: 13vh;
+    margin-top: 2em;
+  }
+}
