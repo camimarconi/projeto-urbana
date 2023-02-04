@@ -35,7 +35,7 @@ function Footer() {
       </Link>
       <Link
         onClick={() => {
-          window.open(`https://issuu.com/`);
+          window.open(`https://issuu.com/msoler.julia`);
         }}
         to="#"
         className="float-start"

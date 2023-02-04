@@ -1,5 +1,5 @@
 .sobre-section {
-  background-image: url("../assets/images/fundoSobre_emily_garfield.jpg");
+  background-image: url("../assets/images/imgur.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -8,11 +8,16 @@
   height: 20vh;
 }
 
+.sobre-contain {
+  background-color: #e5ddcb;
+}
+
 .sobreH1 {
   font-family: "Bitter", serif;
   font-size: 2.5em;
   font-weight: 700;
   color: #570416;
+  background-color: #e5ddcb;
 }
 
 .sobreH2Urb {

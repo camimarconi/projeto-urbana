@@ -7,8 +7,7 @@ function Sobre() {
   return (
     <main>
       <section className="sobre-section"></section>
-      <p className="float-end src-name">img src: Emily Garfield</p>
-      <section className="container mt-3 mb-5">
+      <section className="mb-5">
         <p className="sobreH1">Sobre</p>
         <section className="d-flex mt-5 justify-content-evenly align-items-center mediaQSobre">
           <h2 className="sobreH2Urb">URBANA</h2>
