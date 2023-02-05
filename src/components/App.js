@@ -11,6 +11,7 @@ import Treinamento from "../pages/Treinamento";
 import Colaboração from "../pages/Colaboração";
 import Sobre from "../pages/Sobre";
 import Contato from "../pages/Contato";
+import Produções from "../pages/Produções";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/colaboração" element={<Colaboração />} />
           <Route path="/sobre" element={<Sobre />} />
           <Route path="/contato" element={<Contato />} />
+          <Route path="/produções" element={<Produções />} />
         </Routes>
       </div>
       <Footer />

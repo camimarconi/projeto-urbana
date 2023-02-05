@@ -48,7 +48,10 @@ function Sobre() {
             <h2 className="sobreH2">Idealizadora</h2>
           </section>
           <section className="d-flex align-items-center mediaQSobre">
+            {/* <p>IDEALIZADORA</p> */}
             <p className="infoSobre">
+              {/* IDEALIZADORA{""}
+              <br /> */}
               Arquiteta, urbanista e pesquisadora formada pelo Centro
               Universitário Belas Artes de São Paulo, <u>Júlia Solér Marconi</u>{" "}
               atuou profissionalmente com políticas urbanas, planejamento urbano
