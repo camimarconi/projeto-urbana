@@ -1,5 +1,5 @@
 .contato-section {
-  background-image: url("../assets/images/imgur\ \(4\).jpeg");
+  background-image: url("../assets/images/fundoContato.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -13,29 +13,46 @@
   font-size: 2.5em;
   font-weight: 700;
   color: #570416;
+  background-color: #e5ddcb;
+  padding: 0.1em 0.1em 0.1em 1.5em;
 }
 
 .contactInfo {
   text-align: center;
 }
 
-.contactInfo h2 {
-  font-family: "Bitter", serif;
-  font-size: 2.3em;
-  font-weight: 700;
-  color: #570416;
-}
-
-.contactInfo p {
+.contactInfoP {
   font-family: "Questrial", serif;
   font-size: 1.5em;
   font-weight: 700;
   color: #cdbe9b;
 }
 
+.nome {
+  font-family: "Questrial", serif;
+  font-size: 1.7em;
+  font-weight: 700;
+  color: #570416;
+}
+
 .imagem-cidade {
-  width: 27vw;
+  width: 25vw;
   height: auto;
+}
+
+.logo-contact {
+  width: 5vw;
+  height: auto;
+  margin-left: 3em;
+  background-color: transparent;
+  border-top: 0.2rem solid transparent;
+  padding-top: 1em;
+}
+
+.logo-contact:hover,
+.logo-contact:focus {
+  color: #cdbe9b;
+  border-top-color: #cdbe9b;
 }
 
 @media only screen and (max-width: 768px) {

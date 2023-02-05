@@ -1,5 +1,5 @@
 .serviços-section {
-  background-image: url("../assets/images/contato_img.jpeg");
+  background-image: url("../assets/images/fundoServiços.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -29,8 +29,9 @@
   font-family: "Bitter", serif;
   font-size: 2.5em;
   font-weight: 700;
-  text-align: center;
   color: #570416;
+  background-color: #e5ddcb;
+  padding: 0.2em 0 0.2em 0;
 }
 
 .link-text-serv {
@@ -51,7 +52,7 @@
   }
 
   .h2-serv {
-    font-size: 2.5em;
+    font-size: 2.1em;
   }
 
   .card-img-top {

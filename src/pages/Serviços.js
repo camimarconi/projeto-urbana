@@ -6,9 +6,8 @@ function Serviços() {
   return (
     <main>
       <section className="serviços-section"></section>
-      <section className="float-end">
-        <p className="src-name">img src: Emily Garfield</p>
-      </section>
+      <h2 className="text-center h2-serv">Serviços</h2>
+
       <section className="container mt-3 mb-5">
         <ServiçosModel />
       </section>

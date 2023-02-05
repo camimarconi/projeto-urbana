@@ -20,6 +20,8 @@ function Home() {
       </section>
 
       <section className="container mt-5 mb-5">
+        <h2 className="text-center h2-serv-home">Serviços</h2>
+
         <ServiçosModel />
       </section>
     </main>

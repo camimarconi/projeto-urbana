@@ -4,7 +4,7 @@ import down from "../assets/images/down.jpg";
 function NotFound() {
   return (
     <main>
-      <section className="hero-section-top"></section>
+      {/* <section className="hero-section-top"></section> */}
       <section className="container align-items-center mt-5 mb-5">
         <section className="notFoundCss">
           <h2>404 error</h2>

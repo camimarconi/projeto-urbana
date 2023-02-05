@@ -1,5 +1,5 @@
 .sobre-section {
-  background-image: url("../assets/images/imgur.jpeg");
+  background-image: url("../assets/images/fundoSobre.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -18,20 +18,26 @@
   font-weight: 700;
   color: #570416;
   background-color: #e5ddcb;
+  padding: 0.1em 0.1em 0.1em 1.5em;
 }
 
-.sobreH2Urb {
+.sobreH2 {
   font-family: "Bitter", serif;
-  font-size: 2.1em;
+  font-size: 2em;
   font-weight: 700;
   color: #570416;
-  text-decoration-line: underline;
-  margin-bottom: 1rem;
+  background-color: #f5f2eb;
+}
+
+.logo {
+  margin-top: 2rem;
+  width: 22vw;
+  height: auto;
 }
 
 .ol-css {
   font-family: "Questrial", sans-serif;
-  font-size: 1.55em;
+  font-size: 1.3em;
   font-weight: bold;
 }
 
@@ -59,26 +65,21 @@
   margin-top: 2.5rem;
 }
 
-.sobreH2 {
-  font-family: "Bitter", serif;
-  font-size: 2.1em;
-  font-weight: 700;
-  color: #570416;
-  margin-top: 5em;
+.img-sobre-2 {
+  width: 25rem;
+  height: auto;
 }
 
-.img-sobre-2 {
-  width: auto;
-  height: 11rem;
+.srcName {
+  font-family: "Questrial", sans-serif;
+  font-size: 0.8em;
+  font-style: italic;
+  padding-right: 1em;
 }
 
 @media only screen and (max-width: 768px) {
   .sobreH1 {
     font-size: 1.8em;
-  }
-
-  .sobreH2Urb {
-    font-size: 1.5em;
   }
 
   .ol-css {
@@ -96,8 +97,13 @@
   .img-sobre-1 {
     width: 18rem;
     height: auto;
-    margin-top: 1.5em;
+    margin-top: 0.5rem;
     margin-bottom: 2em;
+  }
+
+  .sobreH2 {
+    margin-left: 1em;
+    margin-right: 1em;
   }
 
   .msSpec {
@@ -116,15 +122,21 @@
     margin-right: 2em;
   }
 
-  .sobreH2 {
-    font-size: 1.5em;
-    margin-left: 0.5em;
-    margin-top: 0;
+  .logo {
+    margin-top: 0.5rem;
+    width: 55vw;
+    height: auto;
   }
 
   .img-sobre-2 {
-    width: auto;
-    height: 13vh;
-    margin-top: 2em;
+    width: 18rem;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 2em;
+  }
+
+  .srcName {
+    margin-top: 0;
+    margin-right: 6.7rem;
   }
 }

@@ -9,9 +9,6 @@ import iconcolabtB from "../assets/images/icon-colab-b.png";
 function ServiçosModel() {
   return (
     <main>
-      <section className="container mt-3 mb-5">
-        <h2 className="text-center h2-serv">Serviços</h2>
-      </section>
       <section className="d-flex flex-wrap justify-content-evenly align-items-center">
         <div
           className="card mt-5 d-flex flex-colmb-4"
