@@ -46,8 +46,8 @@ function NavbarModel() {
                 Colaboração e conscientização
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className="nav-link" href="/produções">
-              Produções
+            <Nav.Link className="nav-link" href="/publicações">
+              Publicações
             </Nav.Link>
             <Nav.Link className="nav-link" href="/contato">
               Contato

@@ -12,20 +12,17 @@
   font-family: "Bitter", serif;
   font-size: 2.5em;
   font-weight: 700;
-  /* color: #570416; */
-  /* color: #e5ddcb; */
   color: #f5f2eb;
-  /* background-color: #e5ddcb; */
   background-color: #570416;
   padding: 0.1em 0.1em 0.1em 1.5em;
 }
 
-.sobreH2 {
-  font-family: "Bitter", serif;
-  font-size: 2em;
-  font-weight: 700;
+.idealizadora {
   color: #570416;
-  background-color: #f5f2eb;
+  font-family: "Bitter", serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
 }
 
 .logo {
@@ -88,6 +85,13 @@
     margin-right: 1em;
   }
 
+  .idealizadora {
+    color: #570416;
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+    margin-top: 2em;
+  }
+
   .mediaQSobre {
     display: flex;
     flex-direction: column;
@@ -98,11 +102,6 @@
     height: auto;
     margin-top: 0.5rem;
     margin-bottom: 2em;
-  }
-
-  .sobreH2 {
-    margin-left: 1em;
-    margin-right: 1em;
   }
 
   .msSpec {
@@ -131,7 +130,7 @@
     width: 18rem;
     height: auto;
     margin-top: 1rem;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
   }
 
   .srcName {

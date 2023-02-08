@@ -29,6 +29,7 @@
   width: 10vw;
   height: auto;
   display: none;
+  margin-left: 0.4em;
 }
 
 .card-img-top-bege:hover {
@@ -43,8 +44,8 @@
   font-family: "Bitter", serif;
   font-size: 2.5em;
   font-weight: 700;
-  color: #570416;
-  background-color: #e5ddcb;
+  color: #f5f2eb;
+  background-color: #570416;
   padding: 0.2em 0 0.2em 0;
 }
 
@@ -55,8 +56,7 @@
   color: #570416;
 }
 
-.link-text-serv:hover,
-.link-text-serv:focus {
+.link-text-serv:hover {
   color: #cdbe9b;
 }
 
@@ -69,7 +69,8 @@
     font-size: 2.1em;
   }
 
-  .card-img-top {
+  .card-img-top-bege,
+  .card-img-top-vinho {
     width: 22vw;
     height: auto;
   }

@@ -11,7 +11,7 @@ import Treinamento from "../pages/Treinamento";
 import Colaboração from "../pages/Colaboração";
 import Sobre from "../pages/Sobre";
 import Contato from "../pages/Contato";
-import Produções from "../pages/Produções";
+import Publicações from "../pages/Publicações";
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
           <Route path="/colaboração" element={<Colaboração />} />
           <Route path="/sobre" element={<Sobre />} />
           <Route path="/contato" element={<Contato />} />
-          <Route path="/produções" element={<Produções />} />
+          <Route path="/publicações" element={<Publicações />} />
         </Routes>
       </div>
       <Footer />
