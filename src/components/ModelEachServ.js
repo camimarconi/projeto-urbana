@@ -43,7 +43,7 @@ function ModelEachServ(props) {
           role="button"
           className="btn btn-outline btn-lg btn-serv"
           aria-pressed="true"
-          to={props.href}
+          to="/contato"
         >
           {props.btnTittle}
         </Link>

@@ -16,31 +16,41 @@
   color: #f5f2eb;
   background-color: #570416;
   padding: 0.2em 0 0.2em 0;
-  /* padding: 0.1em 0.1em 0.1em 1.5em; */
 }
 
-.prodOrigem {
+.pubOrigem {
   font-family: "Querial", serif;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 1.1em;
   color: #b5af9f;
+  margin-bottom: 0.5em;
 }
 
-.prodTítulo {
+.pubTítulo {
   font-family: "Querial", serif;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 1.2em;
   font-style: italic;
   color: #570416;
+  margin-bottom: 0.3em;
 }
 
-.card-text {
+.ano {
+  font-family: "Querial", serif;
+  font-weight: 500;
+  font-size: 1.1em;
   color: #570416;
+  margin-bottom: 0.5em;
 }
 
-.prodLink {
+.pubLink {
+  font-family: "Querial", serif;
+  font-weight: 500;
+  font-size: 1.1em;
   color: #b5af9f;
 }
 
-.prodLink:hover {
+.pubLink:hover {
   color: #570416;
 }
 
@@ -52,5 +62,26 @@
 @media only screen and (max-width: 768px) {
   .prodH1 {
     font-size: 1.8em;
+  }
+
+  .pubOrigem {
+    font-size: 0.9em;
+  }
+
+  .pubTítulo {
+    font-size: 1em;
+  }
+
+  .ano {
+    font-size: 0.9em;
+  }
+
+  .pubLink {
+    font-size: 0.9em;
+  }
+
+  .img-prod {
+    width: 90%;
+    height: 90%;
   }
 }

@@ -9,6 +9,51 @@ import imgMobile from "../assets/images/img_Mobile.jpg";
 
 function Publicações() {
   return (
+    // <main>
+    //   <section className="prod-section"></section>
+    //   <h1 className="prodH1">Publicações</h1>
+    //   <section className="container mt-5"></section>
+
+    //   <section className="container">
+    //     <div className="card mb-3">
+    //       <div className="row g-0 border rounded">
+    //         <div className="col-md-4">
+    //           <img
+    //             src={imgEspaços}
+    //             className="styleImg img-fluid rounded-start"
+    //             alt="imagem publicação"
+    //           />
+    //         </div>
+    //         <div className="col-md-8">
+    //           <div className="card-body">
+    //             <h5 className="card-title">Card title</h5>
+    //             <p className="card-text">
+    //               This is a wider card with supporting text below as a natural
+    //               lead-in to additional content. This content is a little bit
+    //               longer.
+    //             </p>
+    //             <p className="card-text">
+    //               <Link
+    //                 onClick={() => {
+    //                   window.open(
+    //                     `https://atenaeditora.com.br/catalogo/ebook/arquitetura-e-urbanismo-construcao-e-modelagem-do-ambiente`
+    //                   );
+    //                 }}
+    //                 to="#"
+    //                 className=""
+    //               >
+    //                 Leia mais
+    //               </Link>
+
+    //               <small className="text-muted">Last updated 3 mins ago</small>
+    //             </p>
+    //           </div>
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </section>
+    // </main>
+
     <main>
       <section className="prod-section"></section>
       <h1 className="prodH1">Publicações</h1>
@@ -19,12 +64,12 @@ function Publicações() {
           <section className="col-md-6">
             <section className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative align-items-center">
               <section className="col p-4 d-flex flex-column position-static">
-                <strong className="prodOrigem">[Artigo]</strong>
-                <h5 className="mt-3 prodTítulo">
+                <strong className="pubOrigem">[Artigo]</strong>
+                <h5 className="pubTítulo">
                   A cidade delas – E-book Arquitetura e urbanismo: construção e
                   modelagem do ambiente
                 </h5>
-                <p className="card-text mt-1">(2023)</p>
+                <p className="ano">(2023)</p>
                 <Link
                   onClick={() => {
                     window.open(
@@ -32,17 +77,17 @@ function Publicações() {
                     );
                   }}
                   to="#"
-                  className="stretched-link mt-1 prodLink"
+                  className="pubLink"
                 >
                   Leia mais
                 </Link>
               </section>
-              <section className="col d-none d-lg-block">
+              <section className="col">
                 <img
                   src={imgEbook}
-                  className="bd-placeholder-img img-prod"
+                  className="img-prod"
                   alt="imagem da publicação"
-                  preserveAspectRatio="xMidYMid slice"
+                  // preserveAspectRatio="xMidYMid slice"
                 />
               </section>
             </section>
@@ -51,11 +96,11 @@ function Publicações() {
           <section className="col-md-6">
             <section className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative align-items-center">
               <section className="col p-4 d-flex flex-column position-static">
-                <strong className="prodOrigem">[Artigo]</strong>
-                <h5 className="mt-3 prodTítulo">
+                <strong className="pubOrigem">[Artigo]</strong>
+                <h5 className="pubTítulo">
                   Abordagem feminista periférica – Revista Móbile 23, CAU-SP
                 </h5>
-                <p className="card-text mt-1">(2022)</p>
+                <p className="ano">(2022)</p>
                 <Link
                   onClick={() => {
                     window.open(
@@ -63,17 +108,17 @@ function Publicações() {
                     );
                   }}
                   to="#"
-                  className="stretched-link mt-1 prodLink"
+                  className="pubLink"
                 >
                   Leia mais
                 </Link>
               </section>
-              <section className="col d-none d-lg-block">
+              <section className="col">
                 <img
                   src={imgMobile}
-                  className="bd-placeholder-img img-prod"
+                  className="img-prod"
                   alt="imagem da publicação"
-                  preserveAspectRatio="xMidYMid slice"
+                  // preserveAspectRatio="xMidYMid slice"
                 />
               </section>
             </section>
@@ -86,11 +131,9 @@ function Publicações() {
           <section className="col-md-6">
             <section className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative align-items-center">
               <section className="col p-4 d-flex flex-column position-static">
-                <strong className="prodOrigem">[Artigo]</strong>
-                <h5 className="mt-3 prodTítulo">
-                  A cidade delas – Fórum SP 21
-                </h5>
-                <p className="card-text mt-1">(2021)</p>
+                <strong className="pubOrigem">[Artigo]</strong>
+                <h5 className="pubTítulo">A cidade delas – Fórum SP 21</h5>
+                <p className="ano">(2021)</p>
                 <Link
                   onClick={() => {
                     window.open(
@@ -98,17 +141,17 @@ function Publicações() {
                     );
                   }}
                   to="#"
-                  className="stretched-link mt-1 prodLink"
+                  className="pubLink"
                 >
                   Leia mais
                 </Link>
               </section>
-              <section className="col d-none d-lg-block">
+              <section className="col">
                 <img
                   src={imgForum}
-                  className="bd-placeholder-img img-prod"
+                  className="img-prod"
                   alt="imagem da publicação"
-                  preserveAspectRatio="xMidYMid slice"
+                  // preserveAspectRatio="xMidYMid slice"
                 />
               </section>
             </section>
@@ -117,27 +160,27 @@ function Publicações() {
           <section className="col-md-6">
             <section className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative align-items-center">
               <section className="col p-4 d-flex flex-column position-static">
-                <strong className="prodOrigem">[Monografia]</strong>
-                <h5 className="mt-3 prodTítulo">
+                <strong className="pubOrigem">[Monografia]</strong>
+                <h5 className="pubTítulo">
                   Embaraço: a coletividade feminina nos espaços públicos{" "}
                 </h5>
-                <p className="card-text mt-1">(2020)</p>
+                <p className="ano">(2020)</p>
                 <Link
                   onClick={() => {
                     window.open(`https://issuu.com/msoler.julia/docs/embara_o`);
                   }}
                   to="#"
-                  className="stretched-link mt-1 prodLink"
+                  className="pubLink"
                 >
                   Leia mais
                 </Link>
               </section>
-              <section className="col d-none d-lg-block">
+              <section className="col">
                 <img
                   src={imgEmbaraço}
-                  className="bd-placeholder-img img-prod"
+                  className="img-prod"
                   alt="imagem da publicação"
-                  preserveAspectRatio="xMidYMid slice"
+                  // preserveAspectRatio="xMidYMid slice"
                 />
               </section>
             </section>
@@ -150,11 +193,11 @@ function Publicações() {
           <section className="col-md-6">
             <section className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative align-items-center">
               <section className="col p-4 d-flex flex-column position-static">
-                <strong className="prodOrigem">[Iniciação Científica]</strong>
-                <h5 className="mt-3 prodTítulo">
+                <strong className="pubOrigem">[Iniciação Científica]</strong>
+                <h5 className="pubTítulo">
                   Urbanismo tático e sua relevância no Largo da Batata
                 </h5>
-                <p className="card-text mt-1">(2019)</p>
+                <p className="ano">(2019)</p>
                 <Link
                   onClick={() => {
                     window.open(
@@ -162,17 +205,17 @@ function Publicações() {
                     );
                   }}
                   to="#"
-                  className="stretched-link mt-1 prodLink"
+                  className="pubLink"
                 >
                   Leia mais
                 </Link>
               </section>
-              <section className="col d-none d-lg-block">
+              <section className="col">
                 <img
                   src={imgIC}
-                  className="bd-placeholder-img img-prod"
+                  className="img-prod"
                   alt="imagem da publicação"
-                  preserveAspectRatio="xMidYMid slice"
+                  // preserveAspectRatio="xMidYMid slice"
                 />
               </section>
             </section>
@@ -181,11 +224,11 @@ function Publicações() {
           <section className="col-md-6">
             <section className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative align-items-center">
               <section className="col p-4 d-flex flex-column position-static">
-                <strong className="prodOrigem">[Grupo de Pesquisa]</strong>
-                <h5 className="mt-3 prodTítulo">
+                <strong className="pubOrigem">[Grupo de Pesquisa]</strong>
+                <h5 className="pubTítulo">
                   Espaços Públicos: interpretações e projetos
                 </h5>
-                <p className="card-text mt-1">(2017)</p>
+                <p className="ano">(2017)</p>
                 <Link
                   onClick={() => {
                     window.open(
@@ -193,17 +236,17 @@ function Publicações() {
                     );
                   }}
                   to="#"
-                  className="stretched-link mt-1 prodLink"
+                  className="pubLink"
                 >
                   Leia mais
                 </Link>
               </section>
-              <section className="col d-none d-lg-block">
+              <section className="col">
                 <img
                   src={imgEspaços}
-                  className="bd-placeholder-img img-prod"
+                  className="img-prod"
                   alt="imagem da publicação"
-                  preserveAspectRatio="xMidYMid slice"
+                  // preserveAspectRatio="xMidYMid slice"
                 />
               </section>
             </section>
