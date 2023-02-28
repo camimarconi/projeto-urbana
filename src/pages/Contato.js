@@ -74,44 +74,6 @@ function Contato() {
             Carregando…
           </iframe>
         </section>
-        {/* 
-          <section className="col justify-content-evenly mt-5 mediaQContact">
-            <Link
-              onClick={() => {
-                window.open(`https://www.linkedin.com/in/msolerjulia/`);
-              }}
-              to="#"
-              className=""
-            >
-              <img
-                src={linkedinLogo}
-                alt="logo-linkedin"
-                className="logo-contact"
-              />
-            </Link>
-            <Link
-              onClick={() => {
-                window.open(`https://www.behance.net/julislrm`);
-              }}
-              to="#"
-              className=""
-            >
-              <img
-                src={behanceLogo}
-                alt="logo-behance"
-                className="logo-contact"
-              />
-            </Link>
-            <Link
-              onClick={() => {
-                window.open(`https://issuu.com/msoler.julia`);
-              }}
-              to="#"
-              className=""
-            >
-              <img src={issuLogo} alt="logo-issuu" className="logo-contact" />
-            </Link>
-          </section> */}
       </section>
     </main>
   );

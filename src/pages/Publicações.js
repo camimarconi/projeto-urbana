@@ -9,51 +9,6 @@ import imgMobile from "../assets/images/img_Mobile.jpg";
 
 function Publicações() {
   return (
-    // <main>
-    //   <section className="prod-section"></section>
-    //   <h1 className="prodH1">Publicações</h1>
-    //   <section className="container mt-5"></section>
-
-    //   <section className="container">
-    //     <div className="card mb-3">
-    //       <div className="row g-0 border rounded">
-    //         <div className="col-md-4">
-    //           <img
-    //             src={imgEspaços}
-    //             className="styleImg img-fluid rounded-start"
-    //             alt="imagem publicação"
-    //           />
-    //         </div>
-    //         <div className="col-md-8">
-    //           <div className="card-body">
-    //             <h5 className="card-title">Card title</h5>
-    //             <p className="card-text">
-    //               This is a wider card with supporting text below as a natural
-    //               lead-in to additional content. This content is a little bit
-    //               longer.
-    //             </p>
-    //             <p className="card-text">
-    //               <Link
-    //                 onClick={() => {
-    //                   window.open(
-    //                     `https://atenaeditora.com.br/catalogo/ebook/arquitetura-e-urbanismo-construcao-e-modelagem-do-ambiente`
-    //                   );
-    //                 }}
-    //                 to="#"
-    //                 className=""
-    //               >
-    //                 Leia mais
-    //               </Link>
-
-    //               <small className="text-muted">Last updated 3 mins ago</small>
-    //             </p>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </section>
-    // </main>
-
     <main>
       <section className="prod-section"></section>
       <h1 className="prodH1">Publicações</h1>
@@ -87,7 +42,6 @@ function Publicações() {
                   src={imgEbook}
                   className="img-prod"
                   alt="imagem da publicação"
-                  // preserveAspectRatio="xMidYMid slice"
                 />
               </section>
             </section>
@@ -118,7 +72,6 @@ function Publicações() {
                   src={imgMobile}
                   className="img-prod"
                   alt="imagem da publicação"
-                  // preserveAspectRatio="xMidYMid slice"
                 />
               </section>
             </section>
@@ -151,7 +104,6 @@ function Publicações() {
                   src={imgForum}
                   className="img-prod"
                   alt="imagem da publicação"
-                  // preserveAspectRatio="xMidYMid slice"
                 />
               </section>
             </section>
@@ -180,7 +132,6 @@ function Publicações() {
                   src={imgEmbaraço}
                   className="img-prod"
                   alt="imagem da publicação"
-                  // preserveAspectRatio="xMidYMid slice"
                 />
               </section>
             </section>
@@ -215,7 +166,6 @@ function Publicações() {
                   src={imgIC}
                   className="img-prod"
                   alt="imagem da publicação"
-                  // preserveAspectRatio="xMidYMid slice"
                 />
               </section>
             </section>
@@ -246,7 +196,6 @@ function Publicações() {
                   src={imgEspaços}
                   className="img-prod"
                   alt="imagem da publicação"
-                  // preserveAspectRatio="xMidYMid slice"
                 />
               </section>
             </section>

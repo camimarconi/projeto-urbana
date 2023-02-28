@@ -56,44 +56,6 @@ function NavbarModel() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-
-    // <nav className="navbar navbar-expand-md me-1">
-    //   <div className="container">
-    //     <Link className="navbar-brand" to="/">
-    //       <img src={logoHome} alt="logo-urbana" width="20%" height="10%" />
-    //     </Link>
-
-    //     <div className="mediaNavbar">
-    //       <ul className="navbar-nav">
-    //         <li className="nav-item">
-    //           <Link className="nav-link-style" to="/">
-    //             Home
-    //           </Link>
-    //         </li>
-    //         <li className="nav-item">
-    //           <Link className="nav-link" to="/outra">
-    //             Sobre
-    //           </Link>
-    //         </li>
-    //         <li className="nav-item">
-    //           <Link className="nav-link" to="/">
-    //             Serviços
-    //           </Link>
-    //         </li>
-    //         <li className="nav-item">
-    //           <Link className="nav-link" to="/">
-    //             Produções
-    //           </Link>
-    //         </li>
-    //         <li className="nav-item">
-    //           <Link className="nav-link" to="/">
-    //             Contato
-    //           </Link>
-    //         </li>
-    //       </ul>
-    //     </div>
-    //   </div>
-    // </nav>
   );
 }
 export default NavbarModel;
