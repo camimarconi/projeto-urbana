@@ -41,13 +41,15 @@
   height: auto;
 }
 
-.sizeCardServ {
+.sizeCardServ,
+.sizeCardServ2 {
   width: 25rem;
   height: 30rem;
   margin-top: 2em;
 }
 
-.sizeCardServ img {
+.sizeCardServ img,
+.sizeCardServ2 img {
   width: 13.5vw;
   height: 22.5vh;
 }
@@ -97,13 +99,22 @@
     height: auto;
   }
 
-  .sizeCardServ {
+  .sizeCardServ,
+  .sizeCardServ2 {
     width: 21rem;
     height: 21rem;
+  }
+
+  .sizeCardServ {
     margin-bottom: 1em;
   }
 
-  .sizeCardServ img {
+  .sizeCardServ2 {
+    margin-bottom: 3em;
+  }
+
+  .sizeCardServ img,
+  .sizeCardServ2 img {
     width: 37vw;
     height: auto;
   }

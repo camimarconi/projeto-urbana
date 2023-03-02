@@ -38,11 +38,21 @@ function Publicações() {
                 </Link>
               </section>
               <section className="col">
-                <img
-                  src={imgEbook}
-                  className="img-prod"
-                  alt="imagem da publicação"
-                />
+                <Link
+                  onClick={() => {
+                    window.open(
+                      `https://atenaeditora.com.br/catalogo/ebook/arquitetura-e-urbanismo-construcao-e-modelagem-do-ambiente`
+                    );
+                  }}
+                  to="#"
+                  className="pubLink"
+                >
+                  <img
+                    src={imgEbook}
+                    className="img-prod"
+                    alt="imagem da publicação"
+                  />
+                </Link>
               </section>
             </section>
           </section>
@@ -68,11 +78,21 @@ function Publicações() {
                 </Link>
               </section>
               <section className="col">
-                <img
-                  src={imgMobile}
-                  className="img-prod"
-                  alt="imagem da publicação"
-                />
+                <Link
+                  onClick={() => {
+                    window.open(
+                      `https://issuu.com/causp_oficial/docs/bx_mobile_23_mar22_5_`
+                    );
+                  }}
+                  to="#"
+                  className="pubLink"
+                >
+                  <img
+                    src={imgMobile}
+                    className="img-prod"
+                    alt="imagem da publicação"
+                  />
+                </Link>
               </section>
             </section>
           </section>
@@ -100,11 +120,21 @@ function Publicações() {
                 </Link>
               </section>
               <section className="col">
-                <img
-                  src={imgForum}
-                  className="img-prod"
-                  alt="imagem da publicação"
-                />
+                <Link
+                  onClick={() => {
+                    window.open(
+                      `https://www.iabsp.org.br/forumsp21/S10_T53.pdf`
+                    );
+                  }}
+                  to="#"
+                  className="pubLink"
+                >
+                  <img
+                    src={imgForum}
+                    className="img-prod"
+                    alt="imagem da publicação"
+                  />
+                </Link>
               </section>
             </section>
           </section>
@@ -128,11 +158,19 @@ function Publicações() {
                 </Link>
               </section>
               <section className="col">
-                <img
-                  src={imgEmbaraço}
-                  className="img-prod"
-                  alt="imagem da publicação"
-                />
+                <Link
+                  onClick={() => {
+                    window.open(`https://issuu.com/msoler.julia/docs/embara_o`);
+                  }}
+                  to="#"
+                  className="pubLink"
+                >
+                  <img
+                    src={imgEmbaraço}
+                    className="img-prod"
+                    alt="imagem da publicação"
+                  />
+                </Link>
               </section>
             </section>
           </section>
@@ -162,11 +200,21 @@ function Publicações() {
                 </Link>
               </section>
               <section className="col">
-                <img
-                  src={imgIC}
-                  className="img-prod"
-                  alt="imagem da publicação"
-                />
+                <Link
+                  onClick={() => {
+                    window.open(
+                      `https://issuu.com/msoler.julia/docs/artigoic_urbanismotatico_juliasoler`
+                    );
+                  }}
+                  to="#"
+                  className="pubLink"
+                >
+                  <img
+                    src={imgIC}
+                    className="img-prod"
+                    alt="imagem da publicação"
+                  />
+                </Link>
               </section>
             </section>
           </section>
@@ -192,11 +240,21 @@ function Publicações() {
                 </Link>
               </section>
               <section className="col">
-                <img
-                  src={imgEspaços}
-                  className="img-prod"
-                  alt="imagem da publicação"
-                />
+                <Link
+                  onClick={() => {
+                    window.open(
+                      `https://dspace.mackenzie.br/bitstream/handle/10899/19850/5683_2015_0_1.pdf?sequence=1&isAllowed=y`
+                    );
+                  }}
+                  to="#"
+                  className="pubLink"
+                >
+                  <img
+                    src={imgEspaços}
+                    className="img-prod"
+                    alt="imagem da publicação"
+                  />
+                </Link>
               </section>
             </section>
           </section>

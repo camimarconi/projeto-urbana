@@ -13,7 +13,7 @@
   background-size: cover;
   background-position: center;
   width: 100vw;
-  height: 70vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,10 +26,10 @@
 }
 
 .hero-section-img {
-  width: 45vw;
+  width: 35vw;
   height: auto;
-  margin-bottom: 5em;
-  margin-top: 5em;
+  margin-bottom: 3em;
+  margin-top: 3em;
 }
 
 .custom-container {
@@ -121,11 +121,11 @@
     width: 90vw;
     height: auto;
     padding: 2%;
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 
   .h2-serv-home {
-    font-size: 2.7em;
+    font-size: 2.3em;
   }
 
   .end-style {

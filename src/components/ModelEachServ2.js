@@ -16,14 +16,14 @@ function ModelEachServ2(props) {
       </section>
 
       <section className="d-flex flex-wrap mt-5 justify-content-evenly align-items-center">
-        <div className="sizeCardServ">
+        <div className="sizeCardServ2">
           <div className="card align-items-center">
             <img src={props.imgServ1} alt={props.imgServ1Alt} />
             <p className="card-text">{props.p1}</p>
           </div>
         </div>
 
-        <div className="sizeCardServ">
+        <div className="sizeCardServ2">
           <div className="card align-items-center">
             <img src={props.imgServ2} alt={props.imgServ2Alt} />
             <p className="card-text">{props.p2}</p>
