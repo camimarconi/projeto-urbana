@@ -12,10 +12,12 @@ import Colaboração from "../pages/Colaboração";
 import Sobre from "../pages/Sobre";
 import Contato from "../pages/Contato";
 import Publicações from "../pages/Publicações";
+import WithRouter from "./WithRouter";
 
 function App() {
   return (
     <div>
+      <WithRouter />
       <NavbarModel />
       <div className="cover-container">
         <Routes>
