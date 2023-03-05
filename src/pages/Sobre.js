@@ -54,14 +54,14 @@ function Sobre() {
               Arquiteta, urbanista e pesquisadora formada pelo Centro
               Universitário Belas Artes de São Paulo, <u>Júlia Solér Marconi</u>{" "}
               atuou profissionalmente com políticas urbanas, planejamento urbano
-              e projetos de urbanismo. Idealizou a urbana durante o Mestrado
-              Profissional, onde pesquisou sobre metodologias internacionais e
-              nacionais, a fim de definir os fundamentos e estratégias que
-              compõem uma metodologia de planejamento urbano e urbanismo aliada
-              integralmente a perspectiva de gênero, que considera as demandas e
-              necessidades da mulher e suas diversas esferas e
-              interseccionalidades na produção social do espaço urbano, bem como
-              sua inclusão como atrizes públicas e políticas.
+              e projetos de urbanismo. Idealizou a <u>urbana</u> durante o
+              Mestrado Profissional, onde pesquisou sobre metodologias
+              internacionais e nacionais, a fim de definir os fundamentos e
+              estratégias que compõem uma metodologia de planejamento urbano e
+              urbanismo aliada integralmente a perspectiva de gênero, que
+              considera as demandas e necessidades da mulher e suas diversas
+              esferas e interseccionalidades na produção social do espaço
+              urbano, bem como sua inclusão como atrizes públicas e políticas.
             </p>
             <img
               src={imgLado2}
