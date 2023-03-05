@@ -12,12 +12,12 @@ import Colaboração from "../pages/Colaboração";
 import Sobre from "../pages/Sobre";
 import Contato from "../pages/Contato";
 import Publicações from "../pages/Publicações";
-import WithRouter from "./WithRouter";
+import ScrollToTop from "./ScrollToTop.js";
 
 function App() {
   return (
     <div>
-      <WithRouter />
+      <ScrollToTop />
       <NavbarModel />
       <div className="cover-container">
         <Routes>
