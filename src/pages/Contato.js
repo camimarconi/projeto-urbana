@@ -8,7 +8,6 @@ import issuLogo from "../assets/images/issuuLogo.png";
 function Contato() {
   return (
     <main>
-      <section className="contato-section"></section>
       <h1 className="contatoH1">Contato</h1>
 
       <section className="row mt-3 justify-content-around mediaQContact">

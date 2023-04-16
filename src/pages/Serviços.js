@@ -5,7 +5,6 @@ import ServiçosModel from "../components/ServiçosModel";
 function Serviços() {
   return (
     <main>
-      <section className="serviços-section"></section>
       <h2 className="text-center h2-serv">Serviços</h2>
 
       <section className="container mt-3 mb-5">

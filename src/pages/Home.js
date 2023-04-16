@@ -1,21 +1,15 @@
 import "../styles/home.css";
-import logoHome from "../assets/images/logoHome.png";
 import ServiçosModel from "../components/ServiçosModel";
+import logoHome from "../assets/images/logo_branco.png";
 
 function Home() {
   return (
     <main>
-      <section>
-        <section className="hero-section-top"></section>
-      </section>
-      <section className="hero-section-logo">
-        <img src={logoHome} alt="logo-urbana" className="hero-section-img" />
-      </section>
-
       <section className="hero-section">
+        <img src={logoHome} alt="logo-urbana" className="hero-section-img2" />
         <p className="custom-container mt5">
-          Serviço de consultoria e apoio técnico em metodologias de planejamento
-          urbano a partir da perspectiva de gênero
+          Consultoria e apoio técnico em metodologias de planejamento urbano a
+          partir da perspectiva de gênero
         </p>
       </section>
 

@@ -4,7 +4,6 @@ import "../styles/each-serv.css";
 function ModelEachServ(props) {
   return (
     <main>
-      <section className="serviços-section"></section>
       <section>
         <h2 className="h2-serv-each">{props.h2}</h2>
       </section>

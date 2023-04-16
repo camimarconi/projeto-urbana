@@ -10,7 +10,6 @@ import imgMobile from "../assets/images/img_Mobile.jpg";
 function Publicações() {
   return (
     <main>
-      <section className="prod-section"></section>
       <h1 className="prodH1">Publicações</h1>
       <section className="container mt-5">
         {/* LINHA 1 */}
@@ -149,7 +148,9 @@ function Publicações() {
                 <p className="ano">(2020)</p>
                 <Link
                   onClick={() => {
-                    window.open(`https://issuu.com/msoler.julia/docs/embara_o`);
+                    window.open(
+                      `https://drive.google.com/file/d/1ZW7XvuSkJbnqdexcCAFEQU4QTsXlhQtI/view`
+                    );
                   }}
                   to="#"
                   className="pubLink"
@@ -160,7 +161,9 @@ function Publicações() {
               <section className="col">
                 <Link
                   onClick={() => {
-                    window.open(`https://issuu.com/msoler.julia/docs/embara_o`);
+                    window.open(
+                      `https://drive.google.com/file/d/1ZW7XvuSkJbnqdexcCAFEQU4QTsXlhQtI/view`
+                    );
                   }}
                   to="#"
                   className="pubLink"

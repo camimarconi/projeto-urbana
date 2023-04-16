@@ -7,7 +7,6 @@ import imgLado2 from "../assets/images/imgLado_Federica_Fragapane.jpg";
 function Sobre() {
   return (
     <main>
-      <section className="sobre-section"></section>
       <section className="mb-5">
         <p className="sobreH1">Sobre</p>
         <section className="container">

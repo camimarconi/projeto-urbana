@@ -1,14 +1,5 @@
-.hero-section-top {
-  background-image: url("../assets/images/fundoHome.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100vw;
-  height: 10vh;
-}
-
 .hero-section {
-  background-image: url("../assets/images/fundoHome.png");
+  background-image: url("../assets/images/Bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -20,12 +11,7 @@
   align-items: center;
 }
 
-.hero-section-logo {
-  display: flex;
-  justify-content: center;
-}
-
-.hero-section-img {
+.hero-section-img2 {
   width: 35vw;
   height: auto;
   margin-bottom: 3em;
@@ -33,13 +19,13 @@
 }
 
 .custom-container {
-  width: 50vw;
+  width: 30vw;
   height: auto;
   font-family: "Bitter", serif;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 700;
   text-align: center;
-  color: #570416;
+  color: white;
 }
 
 .h2-serv-home {
@@ -112,7 +98,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .hero-section-img {
+  .hero-section-img2 {
     width: 80vw;
     height: auto;
   }
@@ -121,7 +107,7 @@
     width: 90vw;
     height: auto;
     padding: 2%;
-    font-size: 1.3em;
+    font-size: 1em;
   }
 
   .h2-serv-home {

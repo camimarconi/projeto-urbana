@@ -13,6 +13,7 @@ import Sobre from "../pages/Sobre";
 import Contato from "../pages/Contato";
 import Publicações from "../pages/Publicações";
 import ScrollToTop from "./ScrollToTop.js";
+// import ServiçosUnico from "../pages/ServiçosÚnico";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/sobre" element={<Sobre />} />
           <Route path="/contato" element={<Contato />} />
           <Route path="/publicações" element={<Publicações />} />
+          {/* <Route path="/serviços2" element={<ServiçosUnico />} /> */}
         </Routes>
       </div>
       <Footer />

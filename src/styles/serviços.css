@@ -1,13 +1,3 @@
-.serviços-section {
-  background-image: url("../assets/images/fundoServiços.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100vw;
-  max-width: 100%;
-  height: 20vh;
-}
-
 .src-name {
   font-family: "Questrial", sans-serif;
   font-size: 0.7em;
